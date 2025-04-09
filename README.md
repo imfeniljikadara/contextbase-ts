@@ -5,7 +5,7 @@ A TypeScript SDK for interacting with the ContextBase MCP API, a simple key-valu
 ## Installation
 
 ```bash
-npm install ts-sdk
+npm install @contextbase/contextbase-ts
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install ts-sdk
 ### Initialization
 
 ```typescript
-import { context } from 'ts-sdk';
+import { context } from 'contextbase-ts';
 
 // Initialize the client
 const ctx = new context({
@@ -39,6 +39,7 @@ ctx.setToken('your-auth-token');
 ```typescript
 // Store a memory (key-value pair)
 await ctx.set('myKey', 'myValue');
+
 // Optionally specify TTL in seconds (default: 86400 - 1 day)
 await ctx.set('temporaryKey', 'temporaryValue', 3600); // 1 hour TTL
 
