@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/contextbase-ts.svg)](https://www.npmjs.com/package/contextbase-ts)
+
 # ContextBase TypeScript SDK
 
 A TypeScript SDK for interacting with the ContextBase MCP API, simple key-value memory storage service with authentication and search capabilities.
