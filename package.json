@@ -1,7 +1,7 @@
 {
-  "name": "@contextbase/contextbase-ts",
-  "version": "1.0.1",
-  "description": "A TypeScript SDK for interacting with the ContextBase MCP API.",
+  "name": "contextbase-ts",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for interacting with the ContextBase MCP API.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

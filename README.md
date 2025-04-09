@@ -5,7 +5,7 @@ A TypeScript SDK for interacting with the ContextBase MCP API, simple key-value 
 ## Installation
 
 ```bash
-npm install @contextbase/contextbase-ts
+npm install contextbase-ts
 ```
 
 ## Usage
@@ -71,15 +71,6 @@ new context({
 | `search` | `query: string` | `Promise<any>` | Searches memories by query string |
 | `delete` | `key: string` | `Promise<any>` | Deletes a memory by key |
 
-## Development
-
-```bash
-npm install
-
-npm run build
-
-npm run dev
-```
 
 ## License
 
